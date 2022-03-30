@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Karla:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;  
+}
+.container{
+    background: #1C1C1C;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.content{
+    position: relative;
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ECFDF5;
+    padding-left: 52px;
+}
+.content h1{
+    padding-top: 110px;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    font-family: 'Karla';
+    color: #2B283A;
+}
+.content h2{
+    color: #10B981;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 40px;
+    font-family: 'Karla';
+}
+.content>p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #6B7280;
+padding-bottom: 51px;
+}
+button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+width: 223px;
+height: 42px;
+background: #10B981;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+    
+}
+button>img{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 0px 12px;
+}
+button>p{
+position: static;
+width: 159px;
+height: 24px;
+left: 47px;
+top: 9px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+margin: 0px 12px;
+flex: none;
+}
+hr{
+width: 446px;
+height: 0px;
+margin-top: 35px;
+border: 1px solid #D5D4D8;
+}
+.pass{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding-top: 35px;
+}
+.password{
+display: block;
+background: #273549;
+border-radius: 6px;
+width: 211px;
+height: 39px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+color: #5DEF92;
+cursor: pointer;
+}
+.password:hover{
+    opacity: 0.8;
+}
+.control{
+    display: flex;
+}
+label{
+    display: block;
+    margin: 10px;
+}
+label{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #ca8989;
+}
+input{
+    box-sizing: border-box;
+    height: 28px;
+    width: 40px;
+    margin-top: 5px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #ca8989;
+background-color: inherit;
+}
